@@ -1,0 +1,6 @@
+# exclude the IntelliJ files
+.idea
+stencil.iml
+stencil.log
+target
+src/main/resources/public/bower_components

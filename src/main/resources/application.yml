@@ -1,0 +1,23 @@
+# Development Configuration
+
+spring:
+    # The name of the application
+    application.name: stencil
+
+    # Profiles that should be active
+    profiles.active: default
+    profiles: default
+
+    # Configuration for SpringApplication setters
+    main:
+        web-environment: true
+        show-banner: true
+        log-startup-info: true
+
+mongo:
+    datasource:
+        host: localhost
+        port: 27017
+        database: stencil
+        username: stenciluser
+        password: Password1
