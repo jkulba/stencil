@@ -1,7 +1,7 @@
 'use strict'
 
 	// create the module and name it stencilApp
-	var stencilApp = angular.module('stencilApp', ['ui.router', 'ui.bootstrap'])
+	var stencilApp = angular.module('stencilApp', ['ui.router'])
 	// configure our routes
     .config(function($stateProvider, $urlRouterProvider) {
 
